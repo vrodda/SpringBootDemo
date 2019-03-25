@@ -9,6 +9,7 @@ public class TestController {
 	 @RequestMapping(value = "/sagar", method = RequestMethod.GET, produces = "application/json")
 	
 	public String home() {
+		 System.out.println("Hello");
 		return "Spring boot is working wow";
 	}
 }
